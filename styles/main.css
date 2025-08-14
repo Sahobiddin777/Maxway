@@ -1,0 +1,375 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+.container{
+    max-width: 1250px;
+    padding: 0 20px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.section{
+    padding: 23px 0 0 0;
+    background-image: url(../images/Rectangle.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+.korzin{
+    position: relative;
+}
+.navbar{
+    width: 100%;
+}
+.group3{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.tel{
+     display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.tel1{
+     display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.hr {
+    border: 1px solid #E4E5E6;
+    width: 1px;
+    height: 43px;
+    margin: 0 40px;
+    opacity: 0.4;
+}
+.linkel{
+    text-decoration: none;
+     font-family: "Inter", sans-serif;
+}
+.links{
+    display: flex;
+    gap: 40px;
+}
+.link{
+    color: #222124;
+}
+.span{
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+
+}
+.subtittle{
+    
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+
+}
+@media screen and (max-width:1180px) {
+    .links{
+        display: none;
+    }
+    .social{
+        display: none;
+    }
+    .asosiy{
+      background: none;
+    }
+}
+.btn{
+    background-color: transparent;
+    border: none;
+}
+@media screen and (min-width:1180px) {
+    .menu{
+        display: none;
+    }
+    .btn{
+        display: none;
+    }
+    
+.boxes{
+    width: 114%;}
+}
+
+.row2{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.tittle{
+    
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 75px;
+    margin-bottom: 14px;
+
+}
+.rsubtittle{
+    width: 90%;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    margin-bottom: 60px;
+
+}
+
+.burger{
+    width: 120% ;
+    flex-wrap: wrap;
+}
+@media screen and (min-width:1222px) {
+    .right{
+    width: 60%;
+}
+.left{
+    width: 40%;
+}
+
+}
+@media screen and (max-width:1222px) {
+.right{
+    order: 1;
+}
+.left{
+    order: 2;
+}
+}
+@media screen and (min-width:662px) {
+    .img{
+    display: flex;
+    gap: 40px;
+}
+
+}
+@media screen and (max-width:662px) {
+.tittle{
+    font-size: 50px;
+}
+
+.rsubtittle{
+    font-size: 16px;
+}
+}
+.right{
+    margin-top: 63px;
+    overflow: hidden;
+}
+.left{
+    margin-top: 113px;
+}
+.box{
+    padding: 20px 30px ;
+    height: 200px;
+    width: 255px;
+    background-image: url('../images/41\ копия\ 22.png');
+    background-repeat: no-repeat;
+}
+.fire{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    padding: 10px 22px;
+    background-color: #FFFFFF34;
+    border: none;
+    border-radius: 19px;
+     font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 56px;
+}
+.pitsa{
+    margin-left: 10px;
+}
+.box1{
+    padding: 20px 30px ;
+    height: 200px;
+    width: 255px;
+    background-image: url('../images/max\ kvadrat\ menu\ -\ печать\ 2.png');
+    background-repeat: no-repeat;
+}
+.boxes{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.hr_line{
+    border: 1px solid #979797;
+    width: 1109px;
+    margin-bottom: 54px;
+    opacity: 20%;
+}
+.walker{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+}
+@media screen and (max-width:1131px){
+    .walker{
+        justify-content: center;
+    }
+}
+.frost{
+    font-family: "Inter", sans-serif;
+    width: 134px;
+    height: 54px;
+    border-radius: 27px;
+    background-color: #F1B301;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.knock{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-left: 34px;
+}
+@media screen and (max-width:1131px){
+    .knock{
+        justify-content: center;
+    }
+}
+.blink{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #222124;
+    text-decoration: none;
+    transition: .4s linear;
+}
+.blink:hover{
+    background-color: #F1B301;
+    border-radius: 27px;
+    padding: 15px 30px;
+    color: white;
+}
+.page{
+    display: flex;
+    gap: 18px;
+    width: 160px;
+    height: 54px;
+    border-radius: 27px;
+    align-items: center;
+    padding-left: 44px;
+    margin-left: 63px;
+    border: none;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+.page:hover{
+    background-color:#F1B301;
+    
+}
+.filtr{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.pizza_1{
+    display: flex;
+    gap: 41px;
+    width: 540px;
+    height: 230px;
+    border: 1px solid #9797972E;
+    border-radius: 12px;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 30px;
+}
+.havaya{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    color: #222124;
+    margin-bottom: 10px;
+}
+.retsept{
+    width: 212px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+        color: #222124;
+    opacity: 40%;
+    margin-bottom:  24px;
+}
+.pizza_text{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 100%;
+    margin-top: 120px;
+}
+.uzs{
+    display: flex;
+    gap: 67px;
+    align-items: center;
+}
+.money{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+}
+.plus{
+    padding: 13px;
+    background-color: #F1B301;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: .3s ease-in;
+}
+.plus:hover{
+    background-color: yellow;
+    
+}
+.pizza{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.burger{
+    display: flex;
+    gap: 30px;
+}
+.kombo{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.ichimliklar{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
